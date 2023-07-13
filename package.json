@@ -19,8 +19,8 @@
   },
   "lint-staged": {
     "src/**/*.+(js|jsx|ts|tsx|md|mdx|yml|yaml)": [
-      "npx --fix",
-      "npx test --findRelatedTests --bail --passWithNoTests"
+      "npm run lint --fix",
+      "npm test -- --findRelatedTests --bail --passWithNoTests"
     ]
   },
   "dependencies": {
